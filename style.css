@@ -19,24 +19,32 @@ html {
 
 /*header elements*/
 header {
-  display: inline-block;
+  display: inline-grid;
   width: 100%;
 }
 
 .logo {
-  max-width: 15vw;
+  grid-column: 5;
   max-height: 150px;
+  padding: 10px;
+  margin: 20px;
+  right: 20px;
+  top: 20px;
+  position: absolute;
 }
 
 .title {
+  color: black;
+  grid-column-start: 1;
+  grid-column-end: 4;
   max-width: 85vw;
-  font-size: 45px;
+  font-size: 85px;
   height: 150px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   padding-left: 10px;
   text-align: left;
-  background-color: red;
+  vertical-align: top;
 }
 /**/
 
