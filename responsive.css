@@ -1,4 +1,76 @@
+@media screen and (max-width: 1750px) {
+  .title {
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .columns {
+    display: inline-block;
+  }
+  .column {
+    display: inline-block;
+    max-width: 1250px;
+    margin: 0px 10px 0px 10px;
+    padding: 0;
+  }
+  aside {
+    box-shadow: none;
+    margin: 10px 0px 0px 0px;
+  }
+  aside:last-child {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: 55px;
+  }
+  .logo {
+    max-height: 100px;
+    max-width: auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .menu {
-    display:none;
+    display: none;
   }
+  .logo {
+    display: none;
+  }
+  .parallax {
+    min-height: 250px;
+  }
+  aside {
+    display: none;
+  }
+  .hamburger {
+    font-size: 40px;
+    color: lightgrey;
+    display: inline;
+    position: absolute;
+    right: 0;
+    border: none;
+    background: none;
+    padding: 0px 10px 5px 0px;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 642px) {
+  .title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  .title,
+  nav,
+  .parallax,
+  main,
+  footer {
+    min-width: 370px;
+  }
+}
