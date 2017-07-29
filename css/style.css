@@ -14,7 +14,7 @@ body {
 }
 
 .parallax {
-  background-image: url("house.JPG");
+  background-image: url("../img/house.JPG");
   min-height: 350px;
   background-attachment: fixed;
   background-position: center;
@@ -28,7 +28,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: #3B4838;
+  background-color: #113721;
 }
 
 .logo {
@@ -38,7 +38,7 @@ body {
   margin: 20px;
   right: 20px;
   top: 20px;
-  background-color: #3B4838;
+  background-color: #113721;
 }
 
 .title {
@@ -51,7 +51,7 @@ body {
   padding-left: 10px;
   text-align: left;
   vertical-align: top;
-  background-color: #3B4838;
+  background-color: #113721;
 }
 /**/
 
@@ -128,7 +128,7 @@ aside {
   font-size: 17px;
   align-items: center;
   text-align: justify;
-  margin: 20px 8px 20px 0px;
+  margin: 20px 40px 20px 0px;
   padding: 5px;
   box-shadow: 3px 3px 3px 3px grey;
 }

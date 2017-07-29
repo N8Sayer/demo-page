@@ -24,6 +24,9 @@
 }
 
 @media screen and (max-width: 1050px) {
+  .menu {
+    display: flex;
+  }
   .title {
     font-size: 55px;
   }
@@ -36,6 +39,22 @@
 @media screen and (max-width: 768px) {
   .menu {
     display: none;
+    position: absolute;
+    z-index: 2;
+    width: 25vw;
+    max-width: 175px;
+    min-width: 125px;
+    top: 55px;
+    right: 0;
+    background-color: grey;
+    border-right: 1px solid black;
+  }
+  .menu li,
+  .menu li a {
+    display: flex;
+    background-color: grey;
+    margin-right: 0;
+    width: 100%;
   }
   .logo {
     display: none;

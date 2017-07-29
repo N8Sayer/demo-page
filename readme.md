@@ -1,5 +1,3 @@
 # TODO
 * responsive.css
-  * @ 768 width:
-    * .menu {display: none;} needs to be converted over to an absolute positioning
-    * It also needs to be hidden off to the side so the hamburger button can slide it back out.
+  * Menu converted to the side, now it keeps old formatting from 768 when you scale back up. Why?
